@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>منصة الكورسات</title>
+
+<style>
+body {
+    font-family: Arial;
+    background-color: whitesmoke;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card a {
+    display: block;
+    background-color: lightgreen;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+@media (max-width:600px){
+    .courses {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>منصة الكورسات</h1>
+
+<div class="courses">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97">
+        <h2>HTML Basics</h2>
+        <p>تعلم أساسيات تصميم صفحات الويب</p>
+        <a href="course1.html">عرض التفاصيل</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+        <h2>CSS Design</h2>
+        <p>تعلم تنسيق المواقع بشكل احترافي</p>
+        <a href="course2.html">عرض التفاصيل</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e">
+        <h2>UI/UX</h2>
+        <p>تعلم تصميم واجهات المستخدم</p>
+        <a href="course3.html">عرض التفاصيل</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c">
+        <h2>Web Projects</h2>
+        <p>بناء مشاريع مواقع كاملة</p>
+        <a href="course4.html">عرض التفاصيل</a>
+    </div>
+
+</div>
+
+</body>
+</html>
